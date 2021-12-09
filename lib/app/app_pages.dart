@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
-import '../features/main/presentation/get/main_binding.dart';
-import '../features/main/presentation/pages/main_page.dart';
+import 'package:xenshop_product/xenshop_product.dart';
 import '../features/splash/presentation/get/splash_binding.dart';
 import '../features/splash/presentation/pages/splash_page.dart';
 
@@ -12,9 +11,11 @@ final List<GetPage> pageRoutes = [
     page: () => const SplashPage(),
     binding: SplashBinding(),
   ),
+
+  ///Product Module
   GetPage(
-    name: MainPage.routeName, 
-    page: () => const MainPage(),
-    binding: MainBinding(),
+    name: BaseProductPage.routeName, 
+    page: () => const BaseProductPage(),
+    binding: ProductBinding(),
   ),
 ];
