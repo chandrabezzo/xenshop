@@ -7,7 +7,9 @@ class MainPage extends GetView<MainController> {
   const MainPage({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+  Widget build(BuildContext context) => const Scaffold(
+    body: Center(
+      child: Text('Main'),
+    ),
+  );
 }
