@@ -4,7 +4,7 @@ import '../features/main/presentation/pages/main_page.dart';
 import '../features/splash/presentation/get/splash_binding.dart';
 import '../features/splash/presentation/pages/splash_page.dart';
 
-final String initialPageRoute = SplashPage.routeName;
+const String initialPageRoute = SplashPage.routeName;
 
 final List<GetPage> pageRoutes = [
   GetPage(
@@ -15,6 +15,6 @@ final List<GetPage> pageRoutes = [
   GetPage(
     name: MainPage.routeName, 
     page: () => const MainPage(),
-    binding: MainBinding()
-  )
+    binding: MainBinding(),
+  ),
 ];
