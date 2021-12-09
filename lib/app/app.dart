@@ -16,7 +16,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: (F.appFlavor == Flavor.staging),
       enableLog: (F.appFlavor == Flavor.staging),
       title: F.title,
       initialRoute: initialPageRoute,
