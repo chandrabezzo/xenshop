@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xenshop_core/base/colors.dart';
-import 'package:xenshop_core/base/xenshop_text_style.dart';
+import 'package:xenshop_core/xenshop_core.dart';
 
 import '../../../../app/consts/assets/images.dart';
 import '../../../../app/i18n/strings.dart';
