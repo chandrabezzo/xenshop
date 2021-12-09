@@ -7,6 +7,12 @@ class Styles {
       primaryColor: blue,
       brightness: Brightness.light,
       textTheme: XenshopTextTheme(),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: blue,
+        iconTheme: IconThemeData(
+          color: white,
+        ),
+      ),
     );
   }
 }
