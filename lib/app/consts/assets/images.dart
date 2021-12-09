@@ -1,0 +1,1 @@
+const xendit = 'assets/images/xendit.jpeg';
