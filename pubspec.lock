@@ -36,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.8.1"
+  badges:
+    dependency: "direct main"
+    description:
+      name: badges
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -379,7 +386,7 @@ packages:
       name: path_provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.7"
+    version: "2.0.8"
   path_provider_android:
     dependency: transitive
     description:
@@ -558,7 +565,7 @@ packages:
     description:
       path: xenshop_authentication
       ref: main
-      resolved-ref: "7bcc9ebd239902a0404cd54d1bfd6a613b955626"
+      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -567,7 +574,7 @@ packages:
     description:
       path: xenshop_cart
       ref: main
-      resolved-ref: "7bcc9ebd239902a0404cd54d1bfd6a613b955626"
+      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -576,7 +583,7 @@ packages:
     description:
       path: xenshop_core
       ref: main
-      resolved-ref: "7bcc9ebd239902a0404cd54d1bfd6a613b955626"
+      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -585,7 +592,7 @@ packages:
     description:
       path: xenshop_product
       ref: main
-      resolved-ref: "7bcc9ebd239902a0404cd54d1bfd6a613b955626"
+      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"

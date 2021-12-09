@@ -1,4 +1,4 @@
 import 'en.dart';
 
-/// since the english copy is not available yet
+/// since the indonesian copy is not available yet
 Map<String, String> id = en;

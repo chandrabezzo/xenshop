@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xenshop_core/base/colors.dart';
-import 'package:xenshop_core/base/xenshop_text_theme.dart';
+import 'package:xenshop_core/xenshop_core.dart';
 
 class Styles {
   static ThemeData lightTheme(){

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:xenshop_cart/xenshop_cart.dart';
 import 'package:xenshop_product/xenshop_product.dart';
 
 import 'locales/en.dart';
@@ -15,8 +16,10 @@ class TranslationService extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
     localizationEn.languageCode: en
-      ..addAll(productEn),
+      ..addAll(productEn)
+      ..addAll(cartEn),
     localizationId.languageCode: id
       ..addAll(productId)
+      ..addAll(cartId)
   };
 }
