@@ -1,4 +1,4 @@
-package co.xendit.xenshop.xenshop
+package com.example.xenshop
 
 import io.flutter.embedding.android.FlutterActivity
 

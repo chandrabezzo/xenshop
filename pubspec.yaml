@@ -61,7 +61,6 @@ dependencies:
   intl: ^0.17.0
   get_storage: ^2.0.3
   flutter_launcher_icons: ^0.9.2
-  google_fonts: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -76,14 +75,14 @@ dev_dependencies:
   flutter_flavorizr: ^2.1.0
   # flutter pub run flutter_flavorizr
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
 flutter_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/images/xendit.jpeg"
   # flutter pub run flutter_launcher_icons:main
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
 
 flavorizr:
   app:
@@ -97,19 +96,19 @@ flavorizr:
         name: "[Staging] Xenshop"
 
       android:
-        applicationId: "co.xenshop.stag"
+        applicationId: "co.xendit.xenshop.stag"
 
       ios:
-        bundleId: "co.xenshop.stag"
+        bundleId: "co.xendit.xenshop.stag"
 
     preview:
       app:
         name: "[Preview] Xenshop"
 
       android:
-        applicationId: "co.xenshop.prev"
+        applicationId: "co.xendit.xenshop.prev"
       ios:
-        bundleId: "co.xenshop.prev"
+        bundleId: "co.xendit.xenshop.prev"
 
     production:
       app:

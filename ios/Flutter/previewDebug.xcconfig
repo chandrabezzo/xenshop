@@ -1,6 +1,6 @@
 #include "Generated.xcconfig"
 
-FLUTTER_TARGET=lib/main-preview.dart
+FLUTTER_TARGET=lib/main.dart
 
 ASSET_PREFIX=preview
 BUNDLE_NAME=[Preview] Xenshop
