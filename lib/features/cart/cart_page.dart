@@ -9,5 +9,8 @@ class CartPage extends BaseCartPage {
 
   @override
   void onCheckoutPressed(BuildContext context) 
-    => Get.toNamed(PaymentPage.routeName);
+    => Get.toNamed(
+      PaymentPage.routeName,
+      arguments: controller.totalPrice,
+    );
 }
