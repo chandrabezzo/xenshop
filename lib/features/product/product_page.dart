@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xenshop_cart/xenshop_cart.dart';
@@ -53,27 +52,4 @@ class ProductPage extends BaseProductPage {
       );
     }
   }
-
-  @override
-  List<Widget> buildActions(BuildContext context) => [
-        Badge(
-          badgeContent: Text(
-            '2',
-            style: XenshopTextStyle.overline(
-              context: context,
-              color: white,
-            ),
-          ),
-          showBadge: true,
-          badgeColor: red,
-          position: const BadgePosition(
-            top: 4,
-            end: 4,
-          ),
-          child: IconButton(
-            onPressed: () => onCartPressed(context),
-            icon: const Icon(Icons.shopping_cart),
-          ),
-        ),
-      ];
 }
