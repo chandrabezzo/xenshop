@@ -579,7 +579,7 @@ packages:
     description:
       path: xenshop_authentication
       ref: main
-      resolved-ref: "14a2bf3762e68535c2b95a2b66beeaa6542f5b8e"
+      resolved-ref: aa72e7a3b5da8216ed4d38698325532dfc61f9ea
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -588,7 +588,7 @@ packages:
     description:
       path: xenshop_cart
       ref: main
-      resolved-ref: "14a2bf3762e68535c2b95a2b66beeaa6542f5b8e"
+      resolved-ref: aa72e7a3b5da8216ed4d38698325532dfc61f9ea
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -597,7 +597,7 @@ packages:
     description:
       path: xenshop_core
       ref: main
-      resolved-ref: "14a2bf3762e68535c2b95a2b66beeaa6542f5b8e"
+      resolved-ref: aa72e7a3b5da8216ed4d38698325532dfc61f9ea
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -606,7 +606,7 @@ packages:
     description:
       path: xenshop_product
       ref: main
-      resolved-ref: "14a2bf3762e68535c2b95a2b66beeaa6542f5b8e"
+      resolved-ref: aa72e7a3b5da8216ed4d38698325532dfc61f9ea
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
