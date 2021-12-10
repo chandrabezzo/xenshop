@@ -6,6 +6,7 @@ import '../features/cart/cart_page.dart';
 import '../features/payment/presentation/get/payment_binding.dart';
 import '../features/payment/presentation/get/payment_success_binding.dart';
 import '../features/payment/presentation/pages/payment_page.dart';
+import '../features/product/presentation/get/xenshop_product_binding.dart';
 import '../features/payment/presentation/pages/payment_success_page.dart';
 import '../features/product/product_page.dart';
 import '../features/splash/presentation/get/splash_binding.dart';
@@ -25,7 +26,7 @@ final List<GetPage> pageRoutes = [
     binding: PaymentBinding(),
   ),
   GetPage(
-    name: PaymentSucccessPage.routeName, 
+    name: PaymentSucccessPage.routeName,
     page: () => const PaymentSucccessPage(),
     binding: PaymentSuccessBinding(),
   ),
@@ -33,8 +34,11 @@ final List<GetPage> pageRoutes = [
   ///Product Module
   GetPage(
     name: BaseProductPage.routeName, 
-    page: () => const ProductPage(),
-    binding: ProductBinding(),
+    page: () => ProductPage(),
+    bindings: [
+      XenshopProductBinding(),
+      ProductBinding(),
+    ],
   ),
 
   ///Cart Module

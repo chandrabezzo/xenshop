@@ -36,13 +36,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.8.1"
-  badges:
-    dependency: "direct main"
-    description:
-      name: badges
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -176,6 +169,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.0"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.4"
+  dio_logging_interceptor:
+    dependency: "direct main"
+    description:
+      name: dio_logging_interceptor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   extended_image:
     dependency: "direct main"
     description:
@@ -276,7 +283,7 @@ packages:
     source: hosted
     version: "2.0.2"
   http:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: http
       url: "https://pub.dartlang.org"
@@ -565,7 +572,7 @@ packages:
     description:
       path: xenshop_authentication
       ref: main
-      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
+      resolved-ref: "504d65bab63f9133311dbbaaff661fe61d33c744"
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -574,7 +581,7 @@ packages:
     description:
       path: xenshop_cart
       ref: main
-      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
+      resolved-ref: "504d65bab63f9133311dbbaaff661fe61d33c744"
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -583,7 +590,7 @@ packages:
     description:
       path: xenshop_core
       ref: main
-      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
+      resolved-ref: "504d65bab63f9133311dbbaaff661fe61d33c744"
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
@@ -592,7 +599,7 @@ packages:
     description:
       path: xenshop_product
       ref: main
-      resolved-ref: e90a20f9dd9555b70f4400f25dfafcf2a3de9cae
+      resolved-ref: "504d65bab63f9133311dbbaaff661fe61d33c744"
       url: "https://github.com/chandrabezzo/xenshop-module"
     source: git
     version: "0.0.1"
