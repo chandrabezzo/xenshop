@@ -5,15 +5,25 @@ class PaymentController extends GetxController {
   final _banks = Rx<List<Bank>>([]);
   final _isLoadingRetrieveBanks = false.obs;
   final _selectedBank = Rx<Bank?>(null);
+  final _totalPayment = 0.toDouble().obs;
 
   List<Bank> get banks => _banks.value;
   bool get isLoadingRetrieveBanks => _isLoadingRetrieveBanks.value;
   Bank? get selectedBank => _selectedBank.value;
+  double get totalPayment => _totalPayment.value;
 
   @override
   void onInit() {
     super.onInit();
+    retrieveArgs();
     retrieveBanks();
+  }
+
+  void retrieveArgs() {
+    final args = Get.arguments;
+    if (args is double) {
+      _totalPayment.value = args;
+    }
   }
 
   void retrieveBanks() async {
@@ -23,7 +33,8 @@ class PaymentController extends GetxController {
       5,
       (index) => Bank(
         id: index,
-        image: 'https://media-eu.jobylon.com/CACHE/companies/company-logo/bank-central-asia/halobca.616d9ea2/1f80b43b32d4a008da5e8ee11bc3bd0d.jpg',
+        image:
+            'https://media-eu.jobylon.com/CACHE/companies/company-logo/bank-central-asia/halobca.616d9ea2/1f80b43b32d4a008da5e8ee11bc3bd0d.jpg',
         name: 'Bank $index',
         virtualAccount: '$index-8-88-888-8888',
       ),
