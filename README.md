@@ -305,3 +305,31 @@ This application implemented using [Trunk Based Development](https://trunkbasedd
 
 ## Architechture
 This project implemented with [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html), further [developed](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course) from the [Reso Coder TDD example](https://resocoder.com/flutter-clean-architecture-tdd). Click [here](https://github.com/chandrabezzo/xenshop/wiki/Clean-Architecture) to learn more about this project architecture.
+
+# Running
+If you want to running this project without IDE that support flutter and dart plugin. You can run this project using command
+```
+flutter run --flavor $flavorType --dart-define=FLAVOR_TYPE=$flavorType
+```
+
+### Staging
+```
+flutter run --flavor staging --dart-define=FLAVOR_TYPE=staging
+```
+
+### Preview
+```
+flutter run --flavor preview --dart-define=FLAVOR_TYPE=preview
+```
+
+### Production
+Add args `release` for production. Please note, you can't apply this command to run in simulator. Because Apple not give permission to us install production in simulator.
+```
+flutter run --flavor production --release --dart-define=FLAVOR_TYPE=production
+```
+
+## Build
+To build this project as APK, AppBundle, App or web you can use same command structure with run the project. But, you need replace from run to build. Then, specific type result what you want for example apk, appbundle, ios, and etc. For example, you can use this command:
+```
+flutter build apk --flavor staging --release --dart-define=FLAVOR_TYPE=staging
+```
